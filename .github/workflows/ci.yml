@@ -20,7 +20,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t KarimBOS/edad:v2 .
+        run: docker build -t karimbos/edad:v2 .
 
       - name: Push Docker image
-        run: docker push KarimBOS/edad:v2
+        run: docker push karimbos/edad:v2
